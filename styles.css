@@ -3,7 +3,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background: #202124;
+    background: #3b3b3b;
 }
 
 .mainPostion {
@@ -22,26 +22,33 @@ body {
 }
 
 .InputSearch {
-    direction: rtl;
-    font-size: 16px;
-    color: #f5f1f1;
-    padding: 10px;
+    line-height: 25px;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
     margin-bottom: 20px;
-    border-color: #f5f1f1;
+    border-color: #bfe1e5;
+    border-radius: 24px;
+    border: 1px;
+    direction: rtl;
+    font-size: 16px;
+    color: #b6adad;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
     background: #202124;
 
-    border-radius: 20px;
-    width: 600px;
-    height: 40px;
+
+
 
 }
 
 .InputSearch[type="text"]::placeholder {
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-left: 20;
     color: #9c9898;
@@ -59,10 +66,22 @@ body {
 .buttonUnderSearch {
 
     margin: 0 20px;
-    padding: 10px 20px;
-    background-color: #4285F4;
-    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #dfe1e5;
+    color: rgb(41, 38, 38);
     border: none;
-    border-radius: 4px;
+    border-radius: 8px;
+    border-color: #dfe1e5;
     cursor: pointer;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.buttonUnderSearch:active {
+    box-shadow: 0 0 10px red;
+    /* الظل الأحمر عند الضغط */
+
 }

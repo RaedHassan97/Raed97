@@ -6,13 +6,25 @@
 </head>
 
 <body>
+
     <div class="mainPostion">
         <img class="googleIMG" src="google.png" />
-        <input class="InputSearch" type="text" placeholder="Say something Hony" />
+        <div>
+            <input class="InputSearch" type="text" placeholder="Say something Hony" />
+
+        </div>
     </div>
+
+
+
     <div class="container">
-        <button class="buttonUnderSearch">Google Search</button>
+        <button class="buttonUnderSearch" onclick="goToPageTrain2()">Train 2</button>
         <button class="buttonUnderSearch">I'm Feeling Lucky</button>
+        <script>
+            function goToPageTrain2() {
+                window.location.href = "Train2.html";
+            }
+        </script>
     </div>
 
 </body>
