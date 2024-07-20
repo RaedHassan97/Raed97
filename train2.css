@@ -3,23 +3,23 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background: #d7d8dd;   
+    background: #d7d8dd;
 }
 
 
 
-.MainPosstion
-{
-    display: block;
+.MainMenu {
+    background-color: #850b2f;
+    /* display: block;
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
+    margin-right: auto; */
+    /* margin-top: 100px; */
 }
 
 
-.mainBotton{
-height: 46px;
-width: 120;
+.mainBotton {
+    height: 46px;
+    width: 120;
     border-color: #172227;
     border-radius: 18px;
     border: 1px solid #850b2f;
@@ -30,10 +30,100 @@ width: 120;
     background-color: rgb(235, 89, 89);
     color: #0f1419;
     font-weight: bold;
+    font-size: 30px;
 }
 
-.mainBotton:active{
-
+.mainBotton:active {
     box-shadow: 0 0 5px #575a51;
+}
+
+
+.containerHead {
+    display: flex;
+    justify-content: center;
+}
+
+.HEADfont {
+    margin-top: 30px;
+    font-size: 50;
+    color: #121212;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgStudio{
+width: 380px ;
+border: 5px solid #0f1419;
+border-width: 3px;
+border-radius: 2px;
+border-color: #0f1419;
+}
+
+.PragrafRaedContainer{
+    margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+.PragrafRaedFont{
+    
+    font-size: 18px;
+    font-weight: bold;
+    color: #121212;
+}
+
+
+.inputEmail{
+  height: 40px;
+  width: 300px;
+
+    border: 3px solid #121212;
+}
+
+.inputEmail::placeholder{
+    font-weight:bold ;
+    font-size: large;
+    padding-left: 55px;
+ }
+
+ .inputEmail[type=text]{
+    font-weight:bold ;
+    font-size: large;
+    padding-left: 15px;
+    
+ }
+
+
+
+ .buttonJoinNow {
+    height: 40px;
+    width: 250px;
+
+    margin-left: 5px;
+    margin-right:5px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #171718;
+    color: rgb(230, 220, 220);
+    border: none;
+    border-radius: 8px;
+    border-color: #b61d2a;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.buttonJoinNow:active {
+    box-shadow: 0 0 10px rgb(31, 7, 7);
+    /* الظل الأحمر عند الضغط */
 
 }

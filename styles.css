@@ -65,7 +65,8 @@ body {
 
 .buttonUnderSearch {
 
-    margin: 0 20px;
+    margin-left: 5px;
+    margin-right:5px ;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -74,7 +75,7 @@ body {
     color: rgb(41, 38, 38);
     border: none;
     border-radius: 8px;
-    border-color: #dfe1e5;
+    border-color: #b61d2a;
     cursor: pointer;
     font-weight: bolder;
     font-size: 15px;
