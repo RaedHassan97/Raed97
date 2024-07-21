@@ -1,0 +1,11 @@
+.HeadContainer{
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.HeaderFont{
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
